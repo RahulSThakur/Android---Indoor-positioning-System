@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/yahoo"
+    tools:context="com.example.dell.map5.MainActivity">
+    //android:gravity="center"
+
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/outdoor_location_finder"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnMap"
+        android:layout_alignLeft="@+id/btnMap"
+        android:layout_alignRight="@+id/btnMap"
+        android:layout_alignStart="@+id/btnMap"
+        android:layout_below="@+id/btnMap"
+        android:layout_marginTop="117dp"
+        android:text="@string/indoor_location_finder"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
